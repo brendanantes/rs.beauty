@@ -18,15 +18,21 @@ body {
 header {
   background-color: #f06292;
 }
-header nav div div ul {
+header nav .container-fluid div ul {
   list-style: none;
 }
-header nav div div ul li a {
+header nav .container-fluid div ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-header nav div div ul li a:hover {
-  color: rgb(87, 86, 86);
+header nav .container-fluid div ul li a:hover {
+  color: rgb(146, 8, 8);
+}
+header nav .container-fluid div form input {
+  color: rgb(146, 8, 8);
+}
+header nav .container-fluid div form button:hover {
+  background-color: rgb(146, 8, 8);
 }
 
 main {
@@ -35,7 +41,7 @@ main {
 main .hero {
   text-align: center;
   width: 100%;
-  height: 500px;
+  height: 530px;
   background-image: url(../img/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +56,7 @@ main .hero h1 {
   font-size: 100px;
 }
 main .hero p {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   padding: 30px;
   font-size: 30px;
 }
@@ -72,7 +78,7 @@ main .hero button a {
   color: rgb(248, 224, 238);
 }
 main .presentacion h2 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 30px;
@@ -86,7 +92,7 @@ main .presentacion .texto {
   text-align: center;
 }
 main .datosimportantes h2 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-decoration: overline;
   text-align: center;
   padding: 20px 0 0 0;
@@ -96,10 +102,10 @@ main .datosimportantes .datosimportantes-container .card {
   margin: 30px 50px;
 }
 main .datosimportantes .datosimportantes-container .card .card-body h3 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
 }
 main .servicios section h2 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 30px;
@@ -119,10 +125,10 @@ main .servicios section ul li {
   padding: 8px;
 }
 main .servicios section ul li:hover {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
 }
 main .disenosunas div h2 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 30px;
@@ -134,36 +140,45 @@ main .disenosunas .container div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+  width: 50%;
 }
 main .disenosunas .manos {
   text-align: center;
   padding: 20px 100px;
 }
 main .disenopelo section h2 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 30px;
 }
 main .disenopelo .pelo {
   text-align: center;
-  padding: 20px 100px;
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
 main .disenopelo .pelo div h3 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-align: center;
   padding: 20px;
   text-decoration: underline;
   font-size: 30px;
 }
+main .disenopelo .pelo .container .carouselAlisados .carousel-inner .carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+main .disenopelo .pelo .container .carouselPeinados .carousel-inner .carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 main .disenoojos section h2 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 30px;
@@ -174,7 +189,7 @@ main .disenoojos .pestañas {
   margin: 20px 150px;
 }
 main .disenoojos .pestañas h3 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-align: center;
   padding: 20px;
   text-decoration: underline;
@@ -184,17 +199,29 @@ main .disenoojos .pestañas .container section div p {
   text-align: center;
   margin: 20px;
 }
+main .disenoojos .pestañas .container section div .carouselPestañas .carousel-inner .carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 main .disenoojos .cejas {
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
 main .disenoojos .cejas h3 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-align: center;
   padding: 20px;
   text-decoration: underline;
   font-size: 30px;
+}
+main .disenoojos .cejas div .carouselCejas .carousel-inner .carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 aside {
@@ -202,7 +229,7 @@ aside {
   padding: 50px;
 }
 aside section h2 {
-  color: rgb(87, 86, 86);
+  color: rgb(146, 8, 8);
   text-decoration: overline;
   text-align: center;
   padding: 20px 0 0 0;
@@ -334,7 +361,7 @@ footer a {
     margin-top: 10px;
   }
   aside .asideboton {
-    background-color: rgb(109, 2, 72);
+    background-color: #f0f0f0;
   }
   aside .asideboton a {
     list-style: none;
@@ -352,7 +379,7 @@ footer a {
   }
   main .hero .boton {
     border-radius: 5px;
-    border: solid 1px rgb(87, 86, 86);
+    border: solid 1px rgb(146, 8, 8);
     padding: 15px;
   }
   main .servicios h2 {

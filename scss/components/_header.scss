@@ -2,7 +2,7 @@ header{
     background-color: $color-principal;
 
     nav{
-        div{
+        .container-fluid{
             div{
                 ul{ 
                     list-style: none;
@@ -14,6 +14,15 @@ header{
                                 color: $color-secundario;
                             }
                         }
+                    }
+                }
+                form{
+                    input{ 
+                        color: $color-secundario;
+                    }
+                    button{
+                        &:hover{
+                            background-color: $color-secundario;}
                     }
                 }
             }
