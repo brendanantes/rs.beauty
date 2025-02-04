@@ -5,7 +5,7 @@
     }
 
     main .hero p {
-        color: $color-principal;
+        color: $color-secundario;
         padding: 15px;
     }
 
@@ -22,6 +22,15 @@
 
     main .datosimportantes .datosimportantes-container .card .card-body p {
         font-size: nth($font-size, 3)
+    }
+
+    main .servicios section ul{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+        max-width: 80%;
+
     }
 
     main .disenoojos .pestañas,
@@ -61,7 +70,7 @@
 
     aside .aside-promo1 h3,
     aside .aside-promo2 h3 {
-        font-size: nth($font-size, 2);      
+        font-size: nth($font-size, 5);      
         margin-top: 10px;
     }
 
@@ -127,7 +136,7 @@
 
     aside .aside-promo1 h3,
     aside .aside-promo2 h3 {
-        font-size: nth($font-size, 2);
+        font-size: nth($font-size, 3);
         margin-top: 5px;
     }
 

@@ -9,17 +9,17 @@ main{
             background-size:cover;
             background-position: center;
             background-attachment:fixed;
-            padding: 50px;
+            @include padding-margin(50px, 0);
 
         h1{
             color: $color-principal;
             justify-content: end;
-            padding: 20px;
+            @include padding-margin(20px, 0);
             font-size: nth($font-size, 18);
         }
         p{
             color: $color-secundario;
-            padding:30px;
+            @include padding-margin(30px);
             font-size: nth($font-size, 5);
                 .animate__animated.animate__bounce {
                 --animate-duration: 2s;
@@ -34,7 +34,7 @@ main{
             background-color: $color-principal;
             border-radius: 10px;
             border: solid 3px $color-terciario;
-            padding: 30px;
+            @include padding-margin(30px, 0);
 
             a{
                 list-style: none; 
@@ -47,12 +47,13 @@ main{
         h2{
             color: $color-secundario;
             text-decoration: underline;
-            text-align: center; padding: 30px;
+            text-align: center; 
+            @include padding-margin(40px, 0);
         }
         p{
             color: $color-detalles; 
             text-align: justify;
-            padding: 10px 90px;
+            @include padding-margin(10px 90px, 0);
         }
         .texto{
             text-align: center;
@@ -64,13 +65,13 @@ main{
             color: $color-secundario;
             text-decoration: overline;
             text-align: center;
-            padding: 20px 0 0 0 ;
+            @include padding-margin(25px 0 0 0, 0);
         }
         .datosimportantes-container{
             @extend %flex;
             .card{
                 text-align: center;
-                margin: 30px 50px;
+                @include padding-margin(0, 30px 50px);
                 .card-body{
                     h3{
                         color: $color-secundario;
@@ -86,20 +87,19 @@ main{
                 color: $color-secundario;
                 text-decoration: underline;
                 text-align: center; 
-                padding: 30px;
+                @include padding-margin(40px, 0);
             }
             p{
                 text-align: center;
             }
             ul{
                 background-color: $color-terciario; 
-                padding: 30px;
-                margin: 20px 150px;
+                @include padding-margin(30px, 20px 150px);
                 li{
                     color: $color-principal;
                     text-align: center;
                     list-style: none;
-                    padding: 8px;
+                    @include padding-margin(8px, 0);
                 }
                 li:hover{
                     color:$color-secundario;}
@@ -113,7 +113,7 @@ main{
                 color: $color-secundario;
                 text-decoration: underline;
                 text-align: center; 
-                padding: 30px;
+                @include padding-margin(30px, 0);
             }
         }
 
@@ -138,7 +138,7 @@ main{
     
         .manos{
             text-align: center; 
-            padding: 20px 100px;
+            @include padding-margin(20px 100px, 0);
         }
     }
 
@@ -148,23 +148,22 @@ main{
                 color: $color-secundario;
                 text-decoration: underline;
                 text-align: center; 
-                padding: 30px;
+                @include padding-margin(40px, 0);
             }
         }
 
         .pelo {
             text-align: center;
             background-color: $color-terciario;
-            padding: 30px;
-            margin: 20px 150px;
+            @include padding-margin(30px, 20px 150px);
         
             div {
                 h3 {
                     color: $color-secundario;
                     text-align: center;
-                    padding: 20px;
                     text-decoration: underline;
                     font-size: nth($font-size, 5);
+                    @include padding-margin(20px, 0);
                 }
             }
         
@@ -199,26 +198,26 @@ main{
                 color: $color-secundario;
                 text-decoration: underline;
                 text-align: center;
-                padding: 30px;
+                @include padding-margin(40px, 0);
             }
         }
 
         .pestañas{
             background-color: $color-terciario; 
-            padding: 30px;
-            margin: 20px 150px;
+            @include padding-margin(30px, 20px 150px);
             h3{
                 color: $color-secundario; 
                 text-align: center;
-                padding: 20px; 
                 text-decoration:underline;
                 font-size: nth($font-size, 5);
+                @include padding-margin(20px, 0);
             }
             .container{
                 section{
                     div{
                         p{ text-align: center;
-                            margin: 20px;}
+                            @include padding-margin(0, 20px);
+                        }
                     }
                 
 
@@ -239,24 +238,33 @@ main{
 
         .cejas{
             background-color: $color-terciario; 
-            padding: 30px;
-            margin: 20px 150px;
+            @include padding-margin(30px, 20px 150px);
             h3{
                 color: $color-secundario; 
                 text-align: center;
-                padding: 20px; 
                 text-decoration:underline;
                 font-size: nth($font-size, 5);
+                @include padding-margin(20px, 0);
             }
                 
-            div{
-                .carouselCejas{
-                    .carousel-inner{
-                        .carousel-item{
-                            img{
-                             @include centrar-imagen(50%); 
+            .container{
+                section{
+                    div{
+                        .carouselCejas{
+                            .carousel-inner{
+                                .carousel-item{
+                                    img{
+                                        @include centrar-imagen(50%); 
+                                        }
+                                }
                             }
-                       }
+                        }   
+                    }
+
+                    div{
+                        p{ text-align: center;
+                            @include padding-margin(0, 20px);
+                        }
                     }
                 }
             }

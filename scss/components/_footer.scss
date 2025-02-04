@@ -8,7 +8,7 @@ footer{
     a{
         color:$color-detalles;
         text-align: center;
-        padding: 80px;
+        @include padding-margin(80px, 0);
         font-size: nth($font-size, 4);
     }
 }

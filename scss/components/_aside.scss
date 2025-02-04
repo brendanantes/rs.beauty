@@ -1,28 +1,27 @@
 aside{
     background-color: $color-fondo;
-    padding: 50px;
+    @include padding-margin(50px, 0);
     section{
         h2{
             color: $color-secundario;
             text-decoration: overline;
             text-align: center;
-            padding: 20px 0 0 0 ;
+            @include padding-margin(20px 0 0 0 , 0);
         }
     }
     .aside-container{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 30px;
+        @include padding-margin(0 , 30px); 
         .aside-promo1{
             background-image: url(/img/portada.jpg);
             border:  3px solid;
             border-radius: 10px;
             width: 450px;
             height: 250px;
-            padding: 40px;
-            margin: 10px;
             text-align: center;
+            @include padding-margin(40px, 10px); 
             h3{
                 color: $color-superdetalles;
                 text-decoration:underline;
@@ -45,10 +44,9 @@ aside{
             border-radius: 10px ;
             width: 450px;
             height: 250px;
-            padding: 40px;
-            margin: 10px;
             text-align: center;
             color: $color-detalles;
+            @include padding-margin(40px, 10px); 
             h3{
                 color: $color-superdetalles;
                 text-decoration:underline;
