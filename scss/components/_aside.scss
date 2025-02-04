@@ -15,7 +15,7 @@ aside{
         align-items: center;
         @include padding-margin(0 , 30px); 
         .aside-promo1{
-            background-image: url(/img/portada.jpg);
+            background-image: url(/img/aside.avif);
             border:  3px solid;
             border-radius: 10px;
             width: 450px;
@@ -39,7 +39,7 @@ aside{
             }
         }
         .aside-promo2{
-            background-image: url(/img/portada.jpg);
+            background-image: url(/img/aside.avif);
             border:  3px solid;
             border-radius: 10px ;
             width: 450px;
