@@ -444,7 +444,8 @@ footer a {
   aside .aside-promo1, aside .aside-promo2 {
     width: 100%;
     height: auto;
-    margin: 10px 0;
+    padding: 0;
+    margin: 10px;
   }
   aside .aside-promo1 img,
   aside .aside-promo2 img {
@@ -480,6 +481,28 @@ footer a {
     margin: 0;
     font-size: 20px;
     text-align: center;
+  }
+  aside .aside-promo1, aside .aside-promo2 {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  aside .aside-promo1 p, aside .aside-promo2 p {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  aside .aside-promo1, aside .aside-promo2 .asideboton {
+    padding: 0;
+    margin: 0;
+  }
+  aside .aside-promo1 a, aside .aside-promo2 .asideboton a {
+    list-style: none;
+    color: rgb(248, 224, 238);
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
   }
 }
 
