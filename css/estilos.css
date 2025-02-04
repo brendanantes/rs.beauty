@@ -8,7 +8,7 @@ main .datosimportantes .datosimportantes-container {
 }
 
 body {
-  background-color: rgb(253, 203, 251);
+  background-color: #f5d9e3;
   font-family: "Amaranth", serif;
   font-size: 20px;
   margin: 0;
@@ -36,7 +36,7 @@ header nav .container-fluid div form button:hover {
 }
 
 main {
-  background-color: rgb(253, 203, 251);
+  background-color: #f5d9e3;
 }
 main .hero {
   text-align: center;
@@ -179,13 +179,13 @@ main .disenopelo .pelo div h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenopelo .pelo .container .carouselAlisados .carousel-inner .carousel-item img {
+main .disenopelo .pelo .container #carouselAlisados .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenopelo .pelo .container .carouselPeinados .carousel-inner .carousel-item img {
+main .disenopelo .pelo .container #carouselPeinados .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -216,7 +216,7 @@ main .disenoojos .pestañas .container section div p {
   padding: 0;
   margin: 20px;
 }
-main .disenoojos .pestañas .container section div .carouselPestañas .carousel-inner .carousel-item img {
+main .disenoojos .pestañas .container section div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -235,7 +235,7 @@ main .disenoojos .cejas h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenoojos .cejas .container section div .carouselCejas .carousel-inner .carousel-item img {
+main .disenoojos .cejas .container section div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -248,7 +248,7 @@ main .disenoojos .cejas .container section div p {
 }
 
 aside {
-  background-color: rgb(253, 203, 251);
+  background-color: #f5d9e3;
   padding: 50px;
   margin: 0;
 }
@@ -266,7 +266,7 @@ aside .aside-container {
   padding: 0;
   margin: 30px;
 }
-aside .aside-container .aside-promo1 {
+aside .aside-container .aside-promo1, aside .aside-container .aside-promo2 {
   background-image: url(/img/aside.png);
   border: 3px solid;
   border-radius: 10px;
@@ -276,42 +276,17 @@ aside .aside-container .aside-promo1 {
   padding: 40px;
   margin: 10px;
 }
-aside .aside-container .aside-promo1 h3 {
+aside .aside-container .aside-promo1 h3, aside .aside-container .aside-promo2 h3 {
   color: rgb(109, 2, 72);
   text-decoration: underline;
 }
-aside .aside-container .aside-promo1 p {
+aside .aside-container .aside-promo1 p, aside .aside-container .aside-promo2 p {
   color: rgb(0, 0, 0);
 }
-aside .aside-container .aside-promo1 .asideboton {
+aside .aside-container .aside-promo1 .asideboton, aside .aside-container .aside-promo2 .asideboton {
   background-color: rgb(109, 2, 72);
 }
-aside .aside-container .aside-promo1 .asideboton a {
-  list-style: none;
-  color: rgb(248, 224, 238);
-}
-aside .aside-container .aside-promo2 {
-  background-image: url(/img/aside.png);
-  border: 3px solid;
-  border-radius: 10px;
-  width: 450px;
-  height: 250px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  padding: 40px;
-  margin: 10px;
-}
-aside .aside-container .aside-promo2 h3 {
-  color: rgb(109, 2, 72);
-  text-decoration: underline;
-}
-aside .aside-container .aside-promo2 p {
-  color: rgb(0, 0, 0);
-}
-aside .aside-container .aside-promo2 .asideboton {
-  background-color: rgb(109, 2, 72);
-}
-aside .aside-container .aside-promo2 .asideboton a {
+aside .aside-container .aside-promo1 .asideboton a, aside .aside-container .aside-promo2 .asideboton a {
   list-style: none;
   color: rgb(248, 224, 238);
 }
@@ -400,7 +375,7 @@ footer a {
     margin-top: 10px;
   }
   aside .asideboton {
-    background-color: #f0f0f0;
+    background-color: rgb(187, 110, 250);
   }
   aside .asideboton a {
     list-style: none;

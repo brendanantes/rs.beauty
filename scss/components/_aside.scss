@@ -14,38 +14,13 @@ aside{
         justify-content: center;
         align-items: center;
         @include padding-margin(0 , 30px); 
-        .aside-promo1{
+        .aside-promo1, .aside-promo2{
             background-image: url(/img/aside.png);
             border:  3px solid;
             border-radius: 10px;
             width: 450px;
             height: 250px;
             text-align: center;
-            @include padding-margin(40px, 10px); 
-            h3{
-                color: $color-superdetalles;
-                text-decoration:underline;
-            }
-            p{
-                color: $color-detalles;
-            }
-            .asideboton{
-                background-color: $color-superdetalles;
-                a{
-                    list-style: none; 
-                    color: $color-terciario;
-                }
-            
-            }
-        }
-        .aside-promo2{
-            background-image: url(/img/aside.png);
-            border:  3px solid;
-            border-radius: 10px ;
-            width: 450px;
-            height: 250px;
-            text-align: center;
-            color: $color-detalles;
             @include padding-margin(40px, 10px); 
             h3{
                 color: $color-superdetalles;

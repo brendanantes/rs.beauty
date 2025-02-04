@@ -168,7 +168,7 @@ main{
             }
         
             .container {
-                .carouselAlisados {
+                #carouselAlisados {
                     .carousel-inner {
                         .carousel-item {
                             img {
@@ -178,7 +178,7 @@ main{
                     }
                 }
         
-                .carouselPeinados {
+                #carouselPeinados {
                     .carousel-inner {
                         .carousel-item {
                             img {
@@ -222,7 +222,7 @@ main{
                 
 
                     div{
-                        .carouselPestañas{
+                        div{
                             .carousel-inner{
                                 .carousel-item{
                                     img{
@@ -237,7 +237,7 @@ main{
         }
 
         .cejas{
-            background-color: $color-terciario; 
+            background-color: $color-terciario;
             @include padding-margin(30px, 20px 150px);
             h3{
                 color: $color-secundario; 
@@ -246,11 +246,11 @@ main{
                 font-size: nth($font-size, 5);
                 @include padding-margin(20px, 0);
             }
-                
+            
             .container{
                 section{
                     div{
-                        .carouselCejas{
+                        div{
                             .carousel-inner{
                                 .carousel-item{
                                     img{
@@ -258,8 +258,9 @@ main{
                                         }
                                 }
                             }
-                        }   
+                        }
                     }
+              
 
                     div{
                         p{ text-align: center;
