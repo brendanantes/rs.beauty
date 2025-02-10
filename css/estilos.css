@@ -8,7 +8,7 @@ main .datosimportantes .datosimportantes-container {
 }
 
 body {
-  background-color: #f5d9e3;
+  background-color: rgba(250, 232, 238, 0.9843137255);
   font-family: "Amaranth", serif;
   font-size: 20px;
   margin: 0;
@@ -36,7 +36,7 @@ header nav .container-fluid div form button:hover {
 }
 
 main {
-  background-color: #f5d9e3;
+  background-color: rgba(250, 232, 238, 0.9843137255);
 }
 main .hero {
   text-align: center;
@@ -248,7 +248,7 @@ main .disenoojos .cejas .container section div p {
 }
 
 aside {
-  background-color: #f5d9e3;
+  background-color: rgba(250, 232, 238, 0.9843137255);
   padding: 50px;
   margin: 0;
 }
