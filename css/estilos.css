@@ -370,7 +370,8 @@ footer a {
     margin: 20px 10px;
   }
   main .disenosunas .manos {
-    padding: 15px;
+    width: 100%;
+    padding: 10px;
     margin: 0;
   }
   main .disenopelo .pelo {

@@ -39,7 +39,8 @@
     }
     
     main .disenosunas .manos{ 
-         @include padding-margin(15px);
+        width: 100%;
+         @include padding-margin(10px);
         }
 
     main .disenopelo .pelo {
