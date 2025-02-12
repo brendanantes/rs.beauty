@@ -38,6 +38,10 @@
         @include padding-margin(30px, 20px 10px); 
     }
     
+    main .disenosunas .manos{ 
+         @include padding-margin(20gipx);
+        }
+
     main .disenopelo .pelo {
         width: 100%;
         @include padding-margin(30px, 20px 10px); 

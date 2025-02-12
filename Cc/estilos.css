@@ -18,6 +18,7 @@ body {
 header {
   background-color: #f06292;
 }
+
 header .navbar {
   background-color: #f06292;
   padding: 10px 20px;
@@ -25,19 +26,24 @@ header .navbar {
   justify-content: space-between;
   align-items: center;
 }
+
 header .navbar .container-fluid div ul {
   list-style: none;
 }
+
 header .navbar .container-fluid div ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
 header .navbar .container-fluid div ul li a:hover {
   color: rgb(146, 8, 8);
 }
+
 header .navbar .container-fluid div form input {
   color: rgb(146, 8, 8);
 }
+
 header .navbar .container-fluid div form button:hover {
   background-color: rgb(146, 8, 8);
 }
@@ -45,6 +51,7 @@ header .navbar .container-fluid div form button:hover {
 main {
   background-color: rgba(250, 232, 238, 0.9843137255);
 }
+
 main .hero {
   text-align: center;
   width: 100%;
@@ -57,6 +64,7 @@ main .hero {
   padding: 50px;
   margin: 0;
 }
+
 main .hero h1 {
   color: #f06292;
   justify-content: end;
@@ -64,19 +72,23 @@ main .hero h1 {
   margin: 0;
   font-size: 100px;
 }
+
 main .hero p {
   color: rgb(146, 8, 8);
   padding: 30px;
   margin: 0;
   font-size: 30px;
 }
+
 main .hero p .animate__animated.animate__bounce {
   --animate-duration: 2s;
 }
+
 main .hero p :root {
   --animate-duration: 800ms;
   --animate-delay: 0.9s;
 }
+
 main .hero button {
   background-color: #f06292;
   border-radius: 10px;
@@ -84,10 +96,12 @@ main .hero button {
   padding: 30px;
   margin: 0;
 }
+
 main .hero button a {
   list-style: none;
   color: rgb(248, 224, 238);
 }
+
 main .presentacion h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
@@ -95,15 +109,18 @@ main .presentacion h2 {
   padding: 40px;
   margin: 0;
 }
+
 main .presentacion p {
   color: rgb(0, 0, 0);
   text-align: justify;
   padding: 10px 90px;
   margin: 0;
 }
+
 main .presentacion .texto {
   text-align: center;
 }
+
 main .datosimportantes h2 {
   color: rgb(146, 8, 8);
   text-decoration: overline;
@@ -111,12 +128,14 @@ main .datosimportantes h2 {
   padding: 25px 0 0 0;
   margin: 0;
 }
+
 main .datosimportantes .datosimportantes-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 main .datosimportantes .datosimportantes-container .card {
   text-align: center;
   padding: 10px 10px;
@@ -124,79 +143,94 @@ main .datosimportantes .datosimportantes-container .card {
   width: 500px;
   height: 500px;
 }
+
 main .datosimportantes .datosimportantes-container .card .card-body h3 {
   color: rgb(146, 8, 8);
 }
+
 main .datosimportantes .datosimportantes-container .card .card-body iframe {
   border: 0;
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
+
 main .datosimportantes .datosimportantes-container .card .card-body img {
   border: 0;
   width: 100%;
   height: 300px;
 }
-main .servicios section h2 {
+
+main .datosimportantes .servicios section h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 40px;
   margin: 0;
 }
-main .servicios section p {
+
+main .datosimportantes .servicios section p {
   text-align: center;
 }
-main .servicios section ul {
+
+main .datosimportantes .servicios section ul {
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .servicios section ul li {
+
+main .datosimportantes .servicios section ul li {
   color: #f06292;
   text-align: center;
   list-style: none;
   padding: 8px;
   margin: 0;
 }
-main .servicios section ul li:hover {
+
+main .datosimportantes .servicios section ul li:hover {
   color: rgb(146, 8, 8);
 }
-main .disenosunas div h2 {
+
+main .datosimportantes .disenosunas div h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 30px;
   margin: 0;
 }
-main .disenosunas .container div .justificado {
+
+main .datosimportantes .disenosunas .container div .justificado {
   text-align: center;
 }
-main .disenosunas .container div div .carousel-inner .carousel-item img {
+
+main .datosimportantes .disenosunas .container div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenosunas .manos {
+
+main .datosimportantes .disenosunas .manos {
   text-align: center;
   padding: 20px 100px;
   margin: 0;
 }
-main .disenopelo section h2 {
+
+main .datosimportantes .disenopelo section h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 40px;
   margin: 0;
 }
-main .disenopelo .pelo {
+
+main .datosimportantes .disenopelo .pelo {
   text-align: center;
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .disenopelo .pelo div h3 {
+
+main .datosimportantes .disenopelo .pelo div h3 {
   color: rgb(146, 8, 8);
   text-align: center;
   text-decoration: underline;
@@ -204,31 +238,36 @@ main .disenopelo .pelo div h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenopelo .pelo .container #carouselAlisados .carousel-inner .carousel-item img {
+
+main .datosimportantes .disenopelo .pelo .container #carouselAlisados .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenopelo .pelo .container #carouselPeinados .carousel-inner .carousel-item img {
+
+main .datosimportantes .disenopelo .pelo .container #carouselPeinados .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenoojos section h2 {
+
+main .datosimportantes .disenoojos section h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 40px;
   margin: 0;
 }
-main .disenoojos .pestañas {
+
+main .datosimportantes .disenoojos .pestañas {
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .disenoojos .pestañas h3 {
+
+main .datosimportantes .disenoojos .pestañas h3 {
   color: rgb(146, 8, 8);
   text-align: center;
   text-decoration: underline;
@@ -236,23 +275,27 @@ main .disenoojos .pestañas h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenoojos .pestañas .container section div p {
+
+main .datosimportantes .disenoojos .pestañas .container section div p {
   text-align: center;
   padding: 0;
   margin: 20px;
 }
-main .disenoojos .pestañas .container section div div .carousel-inner .carousel-item img {
+
+main .datosimportantes .disenoojos .pestañas .container section div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenoojos .cejas {
+
+main .datosimportantes .disenoojos .cejas {
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .disenoojos .cejas h3 {
+
+main .datosimportantes .disenoojos .cejas h3 {
   color: rgb(146, 8, 8);
   text-align: center;
   text-decoration: underline;
@@ -260,13 +303,15 @@ main .disenoojos .cejas h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenoojos .cejas .container section div div .carousel-inner .carousel-item img {
+
+main .datosimportantes .disenoojos .cejas .container section div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenoojos .cejas .container section div p {
+
+main .datosimportantes .disenoojos .cejas .container section div p {
   text-align: center;
   padding: 0;
   margin: 20px;
@@ -277,6 +322,7 @@ aside {
   padding: 50px;
   margin: 0;
 }
+
 aside section h2 {
   color: rgb(146, 8, 8);
   text-decoration: overline;
@@ -284,6 +330,7 @@ aside section h2 {
   padding: 20px 0 0 0;
   margin: 0;
 }
+
 aside .aside-container {
   display: flex;
   justify-content: center;
@@ -291,6 +338,7 @@ aside .aside-container {
   padding: 0;
   margin: 30px;
 }
+
 aside .aside-container .aside-promo1, aside .aside-container .aside-promo2 {
   background-image: url(/img/aside.png);
   border: 3px solid;
@@ -301,16 +349,20 @@ aside .aside-container .aside-promo1, aside .aside-container .aside-promo2 {
   padding: 40px;
   margin: 10px;
 }
+
 aside .aside-container .aside-promo1 h3, aside .aside-container .aside-promo2 h3 {
   color: rgb(109, 2, 72);
   text-decoration: underline;
 }
+
 aside .aside-container .aside-promo1 p, aside .aside-container .aside-promo2 p {
   color: rgb(0, 0, 0);
 }
+
 aside .aside-container .aside-promo1 .asideboton, aside .aside-container .aside-promo2 .asideboton {
   background-color: rgb(109, 2, 72);
 }
+
 aside .aside-container .aside-promo1 .asideboton a, aside .aside-container .aside-promo2 .asideboton a {
   list-style: none;
   color: rgb(248, 224, 238);
@@ -324,6 +376,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 footer a {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -368,10 +421,6 @@ footer a {
     width: 100%;
     padding: 30px;
     margin: 20px 10px;
-  }
-  main .disenosunas .manos {
-    padding: 20gipx;
-    margin: 0;
   }
   main .disenopelo .pelo {
     width: 100%;
@@ -509,5 +558,6 @@ footer a {
     font-size: 15px;
   }
 }
+
 
 /*# sourceMappingURL=estilos.css.map */
