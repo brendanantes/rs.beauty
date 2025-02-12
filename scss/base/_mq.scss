@@ -148,7 +148,7 @@
     footer a {
         display: block;
         text-align: center;
-        @include padding-margin(5px, 0); 
+        @include padding-margin(10px, 10px); 
     }
 }
 

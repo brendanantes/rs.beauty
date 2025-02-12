@@ -470,8 +470,8 @@ footer a {
   footer a {
     display: block;
     text-align: center;
-    padding: 5px;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
   }
 }
 @media screen and (max-width: 400px) {
