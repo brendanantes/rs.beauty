@@ -1,7 +1,12 @@
 header{
     background-color: $color-principal;
 
-    nav{
+    .navbar{
+        background-color: $color-principal;
+        padding: 10px 20px;           
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         .container-fluid{
             div{
                 ul{ 

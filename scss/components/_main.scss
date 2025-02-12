@@ -60,26 +60,47 @@ main{
         }
     }
 
-    .datosimportantes{
-        h2{
-            color: $color-secundario;
-            text-decoration: overline;
+    .datosimportantes {
+        h2 {
+          color: $color-secundario;
+          text-decoration: overline;
+          text-align: center;
+          @include padding-margin(25px 0 0 0, 0);
+        }
+      
+        .datosimportantes-container {
+          @extend %flex;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+      
+          .card {
             text-align: center;
-            @include padding-margin(25px 0 0 0, 0);
-        }
-        .datosimportantes-container{
-            @extend %flex;
-            .card{
-                text-align: center;
-                @include padding-margin(0, 30px 50px);
-                .card-body{
-                    h3{
-                        color: $color-secundario;
-                    }
-                }
+            @include padding-margin(10px 10px, 30px 50px);
+            width: 400px; 
+            height: 500px; 
+            
+            .card-body {
+              h3 {
+                color: $color-secundario;
+              }
             }
+      
+            iframe {
+              border: 0;
+              width: 100%;
+              height: 300px; 
+      
+            img {
+              border: 0;
+              width: 100%;
+              height: 300px;
+            }
+          }
         }
-    }
+      }
+      
+
 
     .servicios{
         section{
@@ -271,4 +292,5 @@ main{
             }
         }
     }
+}
 }

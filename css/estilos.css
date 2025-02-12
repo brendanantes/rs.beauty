@@ -18,20 +18,27 @@ body {
 header {
   background-color: #f06292;
 }
-header nav .container-fluid div ul {
+header .navbar {
+  background-color: #f06292;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .container-fluid div ul {
   list-style: none;
 }
-header nav .container-fluid div ul li a {
+header .navbar .container-fluid div ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-header nav .container-fluid div ul li a:hover {
+header .navbar .container-fluid div ul li a:hover {
   color: rgb(146, 8, 8);
 }
-header nav .container-fluid div form input {
+header .navbar .container-fluid div form input {
   color: rgb(146, 8, 8);
 }
-header nav .container-fluid div form button:hover {
+header .navbar .container-fluid div form button:hover {
   background-color: rgb(146, 8, 8);
 }
 
@@ -104,74 +111,91 @@ main .datosimportantes h2 {
   padding: 25px 0 0 0;
   margin: 0;
 }
+main .datosimportantes .datosimportantes-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 main .datosimportantes .datosimportantes-container .card {
   text-align: center;
-  padding: 0;
+  padding: 10px 10px;
   margin: 30px 50px;
+  width: 400px;
+  height: 500px;
 }
 main .datosimportantes .datosimportantes-container .card .card-body h3 {
   color: rgb(146, 8, 8);
 }
-main .servicios section h2 {
+main .datosimportantes .datosimportantes-container .card iframe {
+  border: 0;
+  width: 100%;
+  height: 300px;
+}
+main .datosimportantes .datosimportantes-container .card iframe img {
+  border: 0;
+  width: 100%;
+  height: 300px;
+}
+main .datosimportantes .servicios section h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 40px;
   margin: 0;
 }
-main .servicios section p {
+main .datosimportantes .servicios section p {
   text-align: center;
 }
-main .servicios section ul {
+main .datosimportantes .servicios section ul {
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .servicios section ul li {
+main .datosimportantes .servicios section ul li {
   color: #f06292;
   text-align: center;
   list-style: none;
   padding: 8px;
   margin: 0;
 }
-main .servicios section ul li:hover {
+main .datosimportantes .servicios section ul li:hover {
   color: rgb(146, 8, 8);
 }
-main .disenosunas div h2 {
+main .datosimportantes .disenosunas div h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 30px;
   margin: 0;
 }
-main .disenosunas .container div .justificado {
+main .datosimportantes .disenosunas .container div .justificado {
   text-align: center;
 }
-main .disenosunas .container div div .carousel-inner .carousel-item img {
+main .datosimportantes .disenosunas .container div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenosunas .manos {
+main .datosimportantes .disenosunas .manos {
   text-align: center;
   padding: 20px 100px;
   margin: 0;
 }
-main .disenopelo section h2 {
+main .datosimportantes .disenopelo section h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 40px;
   margin: 0;
 }
-main .disenopelo .pelo {
+main .datosimportantes .disenopelo .pelo {
   text-align: center;
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .disenopelo .pelo div h3 {
+main .datosimportantes .disenopelo .pelo div h3 {
   color: rgb(146, 8, 8);
   text-align: center;
   text-decoration: underline;
@@ -179,31 +203,31 @@ main .disenopelo .pelo div h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenopelo .pelo .container #carouselAlisados .carousel-inner .carousel-item img {
+main .datosimportantes .disenopelo .pelo .container #carouselAlisados .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenopelo .pelo .container #carouselPeinados .carousel-inner .carousel-item img {
+main .datosimportantes .disenopelo .pelo .container #carouselPeinados .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenoojos section h2 {
+main .datosimportantes .disenoojos section h2 {
   color: rgb(146, 8, 8);
   text-decoration: underline;
   text-align: center;
   padding: 40px;
   margin: 0;
 }
-main .disenoojos .pestañas {
+main .datosimportantes .disenoojos .pestañas {
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .disenoojos .pestañas h3 {
+main .datosimportantes .disenoojos .pestañas h3 {
   color: rgb(146, 8, 8);
   text-align: center;
   text-decoration: underline;
@@ -211,23 +235,23 @@ main .disenoojos .pestañas h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenoojos .pestañas .container section div p {
+main .datosimportantes .disenoojos .pestañas .container section div p {
   text-align: center;
   padding: 0;
   margin: 20px;
 }
-main .disenoojos .pestañas .container section div div .carousel-inner .carousel-item img {
+main .datosimportantes .disenoojos .pestañas .container section div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenoojos .cejas {
+main .datosimportantes .disenoojos .cejas {
   background-color: rgb(248, 224, 238);
   padding: 30px;
   margin: 20px 150px;
 }
-main .disenoojos .cejas h3 {
+main .datosimportantes .disenoojos .cejas h3 {
   color: rgb(146, 8, 8);
   text-align: center;
   text-decoration: underline;
@@ -235,13 +259,13 @@ main .disenoojos .cejas h3 {
   padding: 20px;
   margin: 0;
 }
-main .disenoojos .cejas .container section div div .carousel-inner .carousel-item img {
+main .datosimportantes .disenoojos .cejas .container section div div .carousel-inner .carousel-item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-main .disenoojos .cejas .container section div p {
+main .datosimportantes .disenoojos .cejas .container section div p {
   text-align: center;
   padding: 0;
   margin: 20px;
